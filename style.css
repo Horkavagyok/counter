@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(242, 236, 244);
+    font-family: Arial, sans-serif;
+}
+
+header {
+    height: 7vh;
+    background: rgb(211, 188, 253);
+    display: flex;
+    align-items: center;
+    padding-left: 14px;
+    font-size: 22px;
+}
+
+main {
+    min-height: 93vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#counter {
+    font-size: 26px;
+    margin: 6px 0 19px;
+}
+
+#kicsik, #nagyok {
+    display: flex;
+    justify-content: center;
+}
+
+#kicsik {
+    gap: 28px;
+}
+
+#nagyok {
+    gap: 84px;
+    margin-top: 30px;
+}
+
+button {
+    background: rgb(235, 221, 255);
+    border: none;
+    font-size: 20px;
+}
+
+#kicsik button {
+    width: 57px;
+    height: 57px;
+    border-radius: 18px;
+    box-shadow: 0 4px 7px #0003;
+}
+
+#nagyok button {
+    min-width: 60px;
+    height: 60px;
+    padding: 0 12px;
+    border-radius: 16px;
+    color: #6c5590;
+    font-weight: bold;
+}
